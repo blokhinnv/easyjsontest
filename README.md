@@ -7,8 +7,11 @@ go mod init demo
 на всякий случай попробую удалить
 
 `go clean -i easyjson`
+
 >package easyjson is not in GOROOT (C:\Program Files\Go\src\easyjson)
-go get github.com/mailru/easyjson && go install github.com/mailru/easyjson/...@latest
+
+`go get github.com/mailru/easyjson && go install github.com/mailru/easyjson/...@latest`
+
 > go: added github.com/josharian/intern v1.0.0
 > go: added github.com/mailru/easyjson v0.7.7
 

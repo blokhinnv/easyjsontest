@@ -1,4 +1,4 @@
-module demo
+module easyjsontest
 
 go 1.19
 
